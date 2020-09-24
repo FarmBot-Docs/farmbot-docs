@@ -1,1 +1,2 @@
-baseurl: /farmbot-docs
+baseurl: /
+exclude: docs
