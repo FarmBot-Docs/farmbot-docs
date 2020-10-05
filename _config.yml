@@ -1,2 +1,7 @@
 baseurl: /
-exclude: docs
+exclude:
+  - docs
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
