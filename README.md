@@ -1,11 +1,11 @@
 # FarmBot Documentation Hub
 
-[Express](https://farmbot-docs.github.io/farmbot-express)
+[Express](https://express.farm.bot)
 
-[Genesis](https://farmbot-docs.github.io/farmbot-genesis)
+[Genesis](https://genesis.farm.bot)
 
-[Software](https://farmbot-docs.github.io/farmbot-software)
+[Software](https://software.farm.bot)
 
-[Developers](https://farmbot-docs.github.io/farmbot-developers)
+[Developers](https://developer.farm.bot)
 
-[Meta](https://farmbot-docs.github.io/farmbot-meta)
+[Meta](https://meta.farm.bot)
