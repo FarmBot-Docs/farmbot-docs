@@ -1,5 +1,8 @@
 # FarmBot Documentation Hub
 
+[Hub](https://docs.farm.bot)
+---
+
 [Express](https://express.farm.bot)
 
 [Genesis](https://genesis.farm.bot)

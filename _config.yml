@@ -1,5 +1,7 @@
 title: FarmBot Documentation Hub
+url: docs.farm.bot
 description: 100% open-source assembly instructions, CAD models, software, and more
+logo: /assets/images/farmbot-logo.png
 baseurl: /
 exclude:
   - docs
