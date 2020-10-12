@@ -142,3 +142,7 @@ will render as:
 `title`: Callout header. May be empty.
 
 `content`: Callout content. May be empty.
+
+# Modifying the theme
+
+The common documentation theme (assets/css, layouts, includes) can be modified in the [farmbot-theme](https://github.com/FarmBot-Docs/farmbot-theme) repository.
