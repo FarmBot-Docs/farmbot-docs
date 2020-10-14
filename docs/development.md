@@ -145,4 +145,7 @@ will render as:
 
 # Modifying the theme
 
-The common documentation theme (assets/css, layouts, includes) can be modified in the [farmbot-theme](https://github.com/FarmBot-Docs/farmbot-theme) repository.
+The common documentation theme (assets/css, layouts, includes) can be modified
+in the [farmbot-theme](https://github.com/FarmBot-Docs/farmbot-theme) repository.
+Sample components are provided for quick local development.
+See [local development instructions](#local-development) for additional information.
