@@ -1,14 +1,10 @@
 # FarmBot Documentation Hub
 
-[Hub](https://docs.farm.bot)
+View the documentation hub at https://docs.farm.bot for links to
+hardware, software, developer, and business documentation.
+
 ---
 
-[Express](https://express.farm.bot)
+[FarmBot-Docs GitHub organization overview](https://github.com/FarmBot-Docs/farmbot-docs/blob/main/docs/overview.md)
 
-[Genesis](https://genesis.farm.bot)
-
-[Software](https://software.farm.bot)
-
-[Developers](https://developer.farm.bot)
-
-[Meta](https://meta.farm.bot)
+[local development instructions](https://github.com/FarmBot-Docs/farmbot-docs/blob/main/docs/development.md)

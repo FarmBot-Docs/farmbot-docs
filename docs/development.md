@@ -91,7 +91,13 @@ in the `v1.0` (or latest version) directory.
 4. (if necessary)
 Change any version-specific titles and urls in the new toc file.
 
-5. When ready to publish the new version,
+5. Change the `redirect_from` value for the home page in the
+new documentation version folder. (The home page path can be found at
+the top of the table of contents data file in the `home` field.)
+
+> `redirect_from: /docs/v1.0/` to `redirect_from: /docs/v1.1/`
+
+6. When ready to publish the new version,
 update `latest_version_number` in `/_config.yml`.
 
 > `latest_version_number: 1.0` -> `latest_version_number: 1.1`
@@ -142,6 +148,14 @@ will render as:
 `title`: Callout header. May be empty.
 
 `content`: Callout content. May be empty.
+
+`"` characters within `title` or `content` must be escaped
+(for example, `content="This is \"content\"."`).
+
+# Adding HTML
+
+In addition to markdown, HTML is also supported.
+However, markdown nested within HTML will be rendered as plain text.
 
 # Modifying the theme
 
