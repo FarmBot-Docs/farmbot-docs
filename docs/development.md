@@ -84,20 +84,41 @@ in the `v1.0` (or latest version) directory.
 
 > `/_data/toc/v1.0.yml` -> `/_data/toc/v1.1.yml`
 
-3. Change the `version_number` in the new toc file.
+3. Copy the latest version section image data file.
+
+> `/_data/section_images/v1.0.yml` -> `/_data/section_images/v1.1.yml`
+
+4. Change the `version_number` in the new toc and section_data files.
 
 > `version_number: 1.0` -> `version_number: 1.1`
 
-4. (if necessary)
+5. (if necessary)
 Change any version-specific titles and urls in the new toc file.
 
-5. Change the `redirect_from` value for the home page in the
+> `home: FarmBot-Model-v1.0/intro` -> `home: FarmBot-Model-v1.1/intro`
+> `title: FarmBot Model V1.0` -> `title: FarmBot Model V1.1`
+> `url: FarmBot-Model-v1.0` -> `url: FarmBot-Model-v1.1`
+> `` -> ``
+
+6. (if necessary)
+Change any version-specific folder names within `/v1.1`. Pay attention to case.
+
+> `FarmBot-Model-v1.0` -> `FarmBot-Model-v1.1`
+
+7. (if necessary)
+Change any version-specific titles and urls in documentation content files.
+
+> Within the `/v1.1` folder, find and replace `/FarmBot-Model-v1.0/` -> `/FarmBot-Model-v1.1/`
+
+> search for `v1.0` within the `/v1.1` folder and edit content appropriately
+
+8. Change the `redirect_from` value for the home page in the
 new documentation version folder. (The home page path can be found at
 the top of the table of contents data file in the `home` field.)
 
 > `redirect_from: /docs/v1.0/` to `redirect_from: /docs/v1.1/`
 
-6. When ready to publish the new version,
+9. When ready to publish the new version,
 update `latest_version_number` in `/_config.yml`.
 
 > `latest_version_number: 1.0` -> `latest_version_number: 1.1`
