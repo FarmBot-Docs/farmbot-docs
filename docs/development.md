@@ -146,6 +146,29 @@ pages in newer versions (if a newer version exists) are accessible only via url.
 Verify that the image appears in the GitHub markdown preview
 (or when served by `localhost`).
 
+# Adding a gallery
+
+Existing images can be combined into galleries:
+
+```
+{% include gallery.html images='
+![image alt text description](_images/image_filename.png)
+![image alt text description](_images/image_filename.png)
+' %}
+```
+
+Embeds can be added to galleries:
+
+```
+{% include gallery.html images='
+![image alt text description](_images/image_filename.png)
+<iframe src="https://..."></iframe>
+' %}
+```
+
+Notice that `images='...'` uses single quotes so double quotes can be used
+for iframe attributes. Opposite quote types can also be used.
+
 # Adding a callout
 
 ```
