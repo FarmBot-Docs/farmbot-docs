@@ -22,7 +22,7 @@
     - **[farmbot-meta](https://github.com/FarmBot-Docs/farmbot-meta)**<br>
       FarmBot Inc business documentation at https://meta.farm.bot<br>
       _dependencies: farmbot-theme, utilities (development only)_
-      
+
     - **[farmbot-oer](https://github.com/FarmBot-Docs/farmbot-oer)**<br>
       FarmBot open educational resources at https://oer.farm.bot<br>
       _dependencies: farmbot-theme, utilities (development only)_

@@ -80,15 +80,13 @@ in the `v1.0` (or latest version) directory.
 
 > `/v1.0/` -> `/v1.1/`
 
-2. Copy the latest version table of contents.
+2. Copy the latest version data files.
 
 > `/_data/toc/v1.0.yml` -> `/_data/toc/v1.1.yml`
+> (if applicable) `/_data/section_images/v1.0.yml` -> `/_data/section_images/v1.1.yml`
+> (if applicable) `/_data/cad/v1.0.yml` -> `/_data/cad/v1.1.yml`
 
-3. Copy the latest version section image data file.
-
-> `/_data/section_images/v1.0.yml` -> `/_data/section_images/v1.1.yml`
-
-4. Change the `version_number` in the new toc and section_data files.
+3. Change the `version_number` in the new data files.
 
 > `version_number: 1.0` -> `version_number: 1.1`
 
