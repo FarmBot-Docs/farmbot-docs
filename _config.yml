@@ -3,6 +3,9 @@ url: https://docs.farm.bot
 description: 100% open-source assembly instructions, CAD models, software, and more
 logo: /assets/images/farmbot-logo.png
 baseurl: /
+plugins:
+  - jekyll-github-metadata
+  - jekyll-seo-tag
 exclude:
   - docs
   - README.md

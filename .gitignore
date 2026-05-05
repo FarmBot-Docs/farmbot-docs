@@ -4,5 +4,5 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
-Gemfile
+.tool-versions
 Gemfile.lock

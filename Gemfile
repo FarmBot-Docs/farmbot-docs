@@ -1,2 +1,7 @@
 source 'https://rubygems.org'
-gem 'github-pages', group: :jekyll_plugins
+
+gem 'jekyll'
+gem 'jekyll-github-metadata'
+gem 'jekyll-seo-tag'
+
+ruby '~> 4.0.0'
